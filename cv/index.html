@@ -6,10 +6,10 @@ title: Vladimir Stremoukhov
     <h1>My CV</h1>
     <canvas id="myCanvas">Your browser does not support the HTML5 canvas tag.</canvas>
     <script>
-        var c = document.getElementById("myCanvas");
-        var ctx = c.getContext("2d");
-        ctx.fillStyle = "#FF0A00";
-        ctx.fillRect(0, 0, 500, 100);
-        ctx.fillText("My CV", 20, 20);
+        var canvas = document.getElementById("myCanvas");
+        var context = canvas.getContext("2d");
+        context.fillStyle = "#FF0000";
+        context.fillRect(0, 0, 500, 100);
+        context.fillText("My CV", 20, 20);
     </script>
 </div><!-- /.blurb -->
