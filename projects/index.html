@@ -1,1 +1,16 @@
-
+---
+layout: default
+title: Vladimir Stremoukhov
+---
+<div class="blurb">
+    <canvas id="myCanvas">Your browser does not support the HTML5 canvas tag.</canvas>
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var context = canvas.getContext("2d");
+        context.fillStyle = "#FF0000";
+        context.fillRect(0, 0, 1000, 100);
+        context.font="20px Georgia";
+        context.fillStyle = "#ABFF00";
+        context.fillText("My Projects", 20, 20);
+    </script>
+</div><!-- /.blurb -->
