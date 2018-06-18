@@ -1,1 +1,0 @@
-# stremik.github.io
