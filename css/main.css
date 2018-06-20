@@ -5,6 +5,14 @@ body {
   color: purple;
   background-color: #d8da3d
 }
+.hero-image {
+  background-image: url("photographer.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 .header {
   padding: 80px;
   text-align: center;
